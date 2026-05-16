@@ -967,6 +967,37 @@ if game.PlaceId == 2753915549 then
             end
         end
     end
+
+spawn(function()
+    while wait() do
+        if _G.AutoFarm then
+            pcall(function()
+                CheckQuest()
+                if not game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible then
+                    topos(CFrameQuest)
+                    wait(0.5)
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NameQuest, LevelQuest)
+                else
+                    if game:GetService("Workspace").Enemies:FindFirstChild(Mon) then
+                        for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                            if v.Name == Mon and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+                                repeat wait()
+                                    EquipWeapon(_G.SelectWeapon)
+                                    v.HumanoidRootPart.CanCollide = false
+                                    v.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
+                                    sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
+                                    topos(v.HumanoidRootPart.CFrame * CFrame.new(0, 30, 0))
+                                until not _G.AutoFarm or v.Humanoid.Health <= 0 or not v.Parent or not game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible
+                            end
+                        end
+                    else
+                        topos(CFrameMon)
+                    end
+                end
+            end)
+        end
+    end
+end)
   
 function Hop()
     local PlaceID = game.PlaceId
