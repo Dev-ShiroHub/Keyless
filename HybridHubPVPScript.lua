@@ -1950,7 +1950,6 @@ end
 
 -------------------------------------------
 
-
 local Window = library:NaJa()
 
 local Playerrss = Window:Tab("Teleport & PVP","10734910680")
@@ -1958,7 +1957,7 @@ local Playerrss = Window:Tab("Teleport & PVP","10734910680")
 local Teleport = Playerrss:Section("Teleport Island","Left")
 local Playersss = Playerrss:Section("Players Combat","Right")
 
-      Teleport:Seperator("Auto NPC")    
+Teleport:Seperator("Auto NPC")    
        
      if World1 then
    Teleport:Dropdown("Select NPC",{"Random Devil Fruit","Blox Fruits Dealer","Remove Devil Fruit","Ability Teacher","Dark Step","Electro","Fishman Karate"},{"Random Devil Fruit"},function(value)
