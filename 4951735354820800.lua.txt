@@ -1,0 +1,4039 @@
+--// This file was created by XHider v1.2 [https://discord.gg/hATuHQaQRb]
+
+local fenv = getfenv()
+local _ = fenv.RjQokm4WRKCYo
+local _ = fenv.TkKABQpGxhmf9
+local _ = fenv.bUpHwK6oZxHn
+local _ = fenv["6heHoQrN1sdb"]
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local _v1 = hookmetamethod(game, "__namecall", function() --[[callback:SC_REBIRTH_DELAY]] end)
+local _ = fenv.jfKkxFiYHyVcp
+local _v2 = ReplicatedStorage:WaitForChild("Remotes", 10)
+local _v3 = _v2:FindFirstChild("WinTouched")
+local _v4 = _v2:FindFirstChild("Rebirth")
+local SC_WIN_DELAY = 0.3
+local SC_REBIRTH_DELAY = SC_REBIRTH_DELAY
+local _v5 = Players.LocalPlayer.PlayerGui:FindFirstChild("ShamanBoot")
+local _v6 = _v5:Destroy()
+local gui = Instance.new("ScreenGui")
+gui.Name = "ShamanBoot"
+gui.ResetOnSpawn = false
+gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+gui.DisplayOrder = 9999999
+gui.IgnoreGuiInset = true
+local _v7 = gethui()
+gui.Parent = _v7
+local _ = fenv.xjay3Gn5JzaL
+local _ = fenv.IJc6SehCCgy5kf
+local frame = Instance.new("Frame")
+frame.Name = "Terminal"
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, SC_REBIRTH_DELAY, 0)
+frame.BackgroundColor3 = Color3.fromRGB(8, 8, 10)
+frame.BorderSizePixel = 0
+frame.Parent = gui
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, SC_REBIRTH_DELAY, 0)
+frame.BackgroundTransparency = SC_REBIRTH_DELAY
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 0)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 3)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 6)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 9)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 12)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 15)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 18)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 21)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 24)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 27)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 30)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 33)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 36)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 39)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 42)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 45)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 48)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 51)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 54)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 57)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 60)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 63)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 66)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 69)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 72)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 75)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 78)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 81)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 84)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 87)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 90)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 93)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 96)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 99)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 102)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 105)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 108)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 111)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 114)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 117)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 120)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 123)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 126)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 129)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 132)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 135)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 138)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 141)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 144)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 147)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 150)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 153)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 156)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 159)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 162)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 165)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 168)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 171)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 174)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 177)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 180)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 183)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 186)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 189)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 192)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 195)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 198)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 201)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 204)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 207)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 210)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 213)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 216)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 219)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 222)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 225)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 228)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 231)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 234)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 237)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 240)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 243)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 246)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 249)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 252)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 255)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 258)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 261)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 264)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 267)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 270)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 273)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 276)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 279)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 282)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 285)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 288)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 291)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 294)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 297)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 300)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 303)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 306)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 309)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 312)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 315)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 318)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 321)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 324)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 327)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 330)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 333)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 336)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 339)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 342)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 345)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 348)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 351)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 354)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 357)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 360)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 363)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 366)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 369)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 372)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 375)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 378)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 381)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 384)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 387)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 390)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 393)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 396)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 399)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 402)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 405)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 408)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 411)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 414)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 417)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 420)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 423)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 426)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 429)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 432)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 435)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 438)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 441)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 444)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 447)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 450)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 453)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 456)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 459)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 462)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 465)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 468)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 471)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 474)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 477)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 480)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 483)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 486)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 489)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 492)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 495)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 498)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 501)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 504)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 507)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 510)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 513)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 516)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 519)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 522)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 525)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 528)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 531)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 534)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 537)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 540)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 543)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 546)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 549)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 552)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 555)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 558)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 561)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 564)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 567)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 570)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 573)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 576)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 579)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 582)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 585)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 588)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 591)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 594)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 597)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 600)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 603)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 606)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 609)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 612)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 615)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 618)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 621)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 624)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 627)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 630)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 633)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 636)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 639)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 642)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 645)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 648)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 651)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 654)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 657)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 660)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 663)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 666)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 669)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 672)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 675)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 678)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 681)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 684)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 687)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 690)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 693)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 696)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 699)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 702)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 705)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 708)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 711)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 714)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 717)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 720)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 723)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 726)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 729)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 732)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 735)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 738)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 741)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 744)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 747)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 750)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 753)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 756)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 759)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 762)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 765)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 768)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 771)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 774)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 777)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 780)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 783)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 786)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 789)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 792)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 795)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 798)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 801)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 804)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 807)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 810)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 813)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 816)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 819)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 822)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 825)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 828)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 831)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 834)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 837)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 840)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 843)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 846)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 849)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 852)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 855)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 858)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 861)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 864)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 867)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 870)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 873)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 876)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 879)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 882)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 885)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 888)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 891)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 894)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 897)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 900)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 903)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 906)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 909)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 912)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 915)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 918)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 921)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 924)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 927)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 930)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 933)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 936)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 939)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 942)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 945)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 948)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 951)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 954)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 957)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 960)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 963)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 966)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 969)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 972)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 975)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 978)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 981)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 984)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 987)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 990)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 993)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 996)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 999)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1002)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1005)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1008)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1011)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1014)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1017)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1020)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1023)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1026)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1029)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1032)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1035)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1038)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1041)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1044)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1047)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1050)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1053)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1056)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1059)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1062)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1065)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1068)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1071)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1074)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1077)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1080)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1083)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1086)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1089)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1092)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1095)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1098)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1101)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1104)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1107)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1110)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1113)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1116)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1119)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1122)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1125)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1128)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1131)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1134)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1137)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1140)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1143)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1146)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1149)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1152)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1155)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1158)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1161)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1164)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1167)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1170)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1173)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1176)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1179)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1182)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1185)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1188)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1191)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1194)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1197)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, SC_REBIRTH_DELAY)
+frame.Position = UDim2.new(0, 0, 0, 1200)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BackgroundTransparency = 0.92
+frame.BorderSizePixel = 0
+frame.ZIndex = 100
+frame.Parent = frame
+frame.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 24)
+frame.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+local label = Instance.new("TextLabel")
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, SC_REBIRTH_DELAY, 0)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "root@shaman: ~/exploit/shamancode \xe2\x80\x94 158x42"
+label.TextSize = 12
+label.TextColor3 = Color3.fromRGB(180, 180, 180)
+label.Font = Enum.Font.Code
+label.Parent = frame
+frame.Size = UDim2.new(0, 12, 0, 12)
+frame.Position = UDim2.new(0, 10, 0, 6)
+frame.BackgroundColor3 = Color3.fromRGB(255, 95, 86)
+frame.BorderSizePixel = 0
+frame.Parent = frame
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(SC_REBIRTH_DELAY, 0)
+corner.Parent = frame
+frame.Size = UDim2.new(0, 12, 0, 12)
+frame.Position = UDim2.new(0, 30, 0, 6)
+frame.BackgroundColor3 = Color3.fromRGB(255, 189, 46)
+frame.BorderSizePixel = 0
+frame.Parent = frame
+corner.CornerRadius = UDim.new(SC_REBIRTH_DELAY, 0)
+corner.Parent = frame
+frame.Size = UDim2.new(0, 12, 0, 12)
+frame.Position = UDim2.new(0, 50, 0, 6)
+frame.BackgroundColor3 = Color3.fromRGB(39, 201, 63)
+frame.BorderSizePixel = 0
+frame.Parent = frame
+corner.CornerRadius = UDim.new(SC_REBIRTH_DELAY, 0)
+corner.Parent = frame
+local scrollingframe = Instance.new("ScrollingFrame")
+scrollingframe.Size = UDim2.new(SC_REBIRTH_DELAY, -20, SC_REBIRTH_DELAY, -30)
+scrollingframe.Position = UDim2.new(0, 10, 0, 28)
+scrollingframe.BackgroundTransparency = SC_REBIRTH_DELAY
+scrollingframe.BorderSizePixel = 0
+scrollingframe.ScrollBarThickness = 0
+scrollingframe.CanvasSize = UDim2.new(0, 0, 0, 0)
+scrollingframe.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollingframe.ScrollingEnabled = false
+scrollingframe.Parent = frame
+local layout = Instance.new("UIListLayout")
+layout.SortOrder = Enum.SortOrder.LayoutOrder
+layout.Padding = UDim.new(0, 0)
+layout.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+local _ = fenv.IcCg4WANrDtNbl
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = SC_REBIRTH_DELAY
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = "s"
+local _v = task.wait(0.015)
+label.Text = "sh"
+label.Text = "sha"
+label.Text = "sham"
+label.Text = "shama"
+label.Text = "shaman"
+label.Text = "shaman@"
+label.Text = "shaman@e"
+label.Text = "shaman@ex"
+label.Text = "shaman@exp"
+label.Text = "shaman@expl"
+label.Text = "shaman@explo"
+label.Text = "shaman@exploi"
+label.Text = "shaman@exploit"
+label.Text = "shaman@exploit:"
+label.Text = "shaman@exploit:~"
+label.Text = "shaman@exploit:~$"
+label.Text = "shaman@exploit:~$ "
+label.Text = "shaman@exploit:~$ <"
+label.Text = "shaman@exploit:~$ <f"
+label.Text = "shaman@exploit:~$ <fo"
+label.Text = "shaman@exploit:~$ <fon"
+label.Text = "shaman@exploit:~$ <font"
+label.Text = "shaman@exploit:~$ <font "
+label.Text = "shaman@exploit:~$ <font c"
+label.Text = "shaman@exploit:~$ <font co"
+label.Text = "shaman@exploit:~$ <font col"
+label.Text = "shaman@exploit:~$ <font colo"
+label.Text = "shaman@exploit:~$ <font color"
+label.Text = "shaman@exploit:~$ <font color="
+label.Text = "shaman@exploit:~$ <font color='"
+label.Text = "shaman@exploit:~$ <font color='r"
+label.Text = "shaman@exploit:~$ <font color='rg"
+label.Text = "shaman@exploit:~$ <font color='rgb"
+label.Text = "shaman@exploit:~$ <font color='rgb("
+label.Text = "shaman@exploit:~$ <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "shaman@exploit:~$ <font color='rgb(10"
+label.Text = "shaman@exploit:~$ <font color='rgb(100"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,2"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,22"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,2"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,25"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>."
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./s"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./sh"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./sha"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./sham"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shama"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shaman"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamanc"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamanco"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancod"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode "
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode -"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --b"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --bo"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boo"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot "
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot -"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --v"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --ve"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --ver"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verb"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbo"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbos"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose<"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</f"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</fo"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</fon"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</font"
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,255)'>./shamancode --boot --verbose</font>"
+local _ = fenv.gsskBhusOqRop
+local _v = task.wait(0.4)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 2
+label.RichText = true
+label.Parent = scrollingframe
+local _ = fenv.op0rToUMCicy
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.000000] Booting ShamanCode Kernel v1.0.0-stable (shaman@build)"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 3
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.05)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.001234] Command line: shamancode.boot=verbose exploit.mode=stealth"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 4
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.03)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.008432] CPU: x86_64 Family 25 Model 33 Stepping 0"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 5
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.014892] Memory: 8192MB / 16384MB available"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 6
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.023145] Detected Roblox client environment"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 7
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[   0.034821] Detected executor: Flow"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 8
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.SC_REBIRTH_DELAY)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 9
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "<font color='rgb(120,160,255)'>Starting</font> ShamanCode Init System..."
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 10
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.15)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Anti-Detection Layer"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 11
+label.RichText = true
+label.Parent = scrollingframe
+local _ = fenv.fnz1dI5wG7niL0
+local _v = task.wait(0.12)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Namecall Hook Injector"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 12
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.08)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Callstack Spoofing Module"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 13
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.SC_REBIRTH_DELAY)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Remote Cache System"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 14
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.09)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Loading /dev/wintouched"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 15
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.11)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Loading /dev/rebirth"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 16
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Mounting workspace.Worlds.World1"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 17
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.SC_REBIRTH_DELAY)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Mounting workspace.Worlds.World2"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 18
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.SC_REBIRTH_DELAY)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(255,220,100)'> WARN </font> ] Hyperion detection scan \xe2\x86\x92 <font color='rgb(255,220,100)'>bypassed</font>"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 19
+label.RichText = true
+label.Parent = scrollingframe
+local _ = fenv.Hg95xpEcDSYz
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(255,220,100)'> WARN </font> ] Byfron integrity check \xe2\x86\x92 <font color='rgb(255,220,100)'>spoofed</font>"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 20
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Win Pad Scanner Service"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 21
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Rebirth Daemon"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 22
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Movement Controller"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 23
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] TouchInterest Handler"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 24
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.SC_REBIRTH_DELAY)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Loading behavioral noise generator"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 25
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "[ <font color='rgb(100,220,130)'>  OK  </font> ] Initializing Rayfield UI framework"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 26
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.wait(0.2)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 27
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "<font color='rgb(120,160,255)'>Scanning</font> game environment..."
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 28
+label.RichText = true
+label.Parent = scrollingframe
+local children = workspace.Worlds.World1.DefaultWinPads:GetChildren()
+local _ = fenv.FMii9G8ZVlMX
+local children = workspace.Worlds.World2.DefaultWinPads:GetChildren()
+local _ = fenv.vTA7MLnmKM9ICE
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 29
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = " "
+local _v = task.wait(0.005)
+label.Text = "  "
+label.Text = "  \xe2"
+label.Text = "  \xe2\x86"
+label.Text = "  \xe2\x86\x92"
+label.Text = "  \xe2\x86\x92 "
+label.Text = "  \xe2\x86\x92 F"
+label.Text = "  \xe2\x86\x92 Fo"
+label.Text = "  \xe2\x86\x92 Fou"
+label.Text = "  \xe2\x86\x92 Foun"
+label.Text = "  \xe2\x86\x92 Found"
+label.Text = "  \xe2\x86\x92 Found "
+label.Text = "  \xe2\x86\x92 Found <"
+label.Text = "  \xe2\x86\x92 Found <f"
+label.Text = "  \xe2\x86\x92 Found <fo"
+label.Text = "  \xe2\x86\x92 Found <fon"
+label.Text = "  \xe2\x86\x92 Found <font"
+label.Text = "  \xe2\x86\x92 Found <font "
+label.Text = "  \xe2\x86\x92 Found <font c"
+label.Text = "  \xe2\x86\x92 Found <font co"
+label.Text = "  \xe2\x86\x92 Found <font col"
+label.Text = "  \xe2\x86\x92 Found <font colo"
+label.Text = "  \xe2\x86\x92 Found <font color"
+label.Text = "  \xe2\x86\x92 Found <font color="
+label.Text = "  \xe2\x86\x92 Found <font color='"
+label.Text = "  \xe2\x86\x92 Found <font color='r"
+label.Text = "  \xe2\x86\x92 Found <font color='rg"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb("
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,13"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0<"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> w"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> wi"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win p"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pa"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pad"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads i"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font c"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font co"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font col"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font colo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color="
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='r"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rg"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb("
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,25"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>W"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Wo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Wor"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Worl"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1<"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World1</font>"
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 30
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = " "
+label.Text = "  "
+label.Text = "  \xe2"
+label.Text = "  \xe2\x86"
+label.Text = "  \xe2\x86\x92"
+label.Text = "  \xe2\x86\x92 "
+label.Text = "  \xe2\x86\x92 F"
+label.Text = "  \xe2\x86\x92 Fo"
+label.Text = "  \xe2\x86\x92 Fou"
+label.Text = "  \xe2\x86\x92 Foun"
+label.Text = "  \xe2\x86\x92 Found"
+label.Text = "  \xe2\x86\x92 Found "
+label.Text = "  \xe2\x86\x92 Found <"
+label.Text = "  \xe2\x86\x92 Found <f"
+label.Text = "  \xe2\x86\x92 Found <fo"
+label.Text = "  \xe2\x86\x92 Found <fon"
+label.Text = "  \xe2\x86\x92 Found <font"
+label.Text = "  \xe2\x86\x92 Found <font "
+label.Text = "  \xe2\x86\x92 Found <font c"
+label.Text = "  \xe2\x86\x92 Found <font co"
+label.Text = "  \xe2\x86\x92 Found <font col"
+label.Text = "  \xe2\x86\x92 Found <font colo"
+label.Text = "  \xe2\x86\x92 Found <font color"
+label.Text = "  \xe2\x86\x92 Found <font color="
+label.Text = "  \xe2\x86\x92 Found <font color='"
+label.Text = "  \xe2\x86\x92 Found <font color='r"
+label.Text = "  \xe2\x86\x92 Found <font color='rg"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb("
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,13"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0<"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> w"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> wi"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win p"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pa"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pad"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads i"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font "
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font c"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font co"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font col"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font colo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color="
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='r"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rg"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb("
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,25"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>W"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Wo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Wor"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>Worl"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2<"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</f"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</fo"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</fon"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</font"
+label.Text = "  \xe2\x86\x92 Found <font color='rgb(100,220,130)'>0</font> win pads in <font color='rgb(100,220,255)'>World2</font>"
+local _ = fenv.fdSa6bRCiRft1K
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 31
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = " "
+label.Text = "  "
+label.Text = "  \xe2"
+label.Text = "  \xe2\x86"
+label.Text = "  \xe2\x86\x92"
+label.Text = "  \xe2\x86\x92 "
+label.Text = "  \xe2\x86\x92 W"
+label.Text = "  \xe2\x86\x92 Wi"
+label.Text = "  \xe2\x86\x92 Win"
+label.Text = "  \xe2\x86\x92 WinT"
+label.Text = "  \xe2\x86\x92 WinTo"
+label.Text = "  \xe2\x86\x92 WinTou"
+label.Text = "  \xe2\x86\x92 WinTouc"
+label.Text = "  \xe2\x86\x92 WinTouch"
+label.Text = "  \xe2\x86\x92 WinTouche"
+label.Text = "  \xe2\x86\x92 WinTouched"
+label.Text = "  \xe2\x86\x92 WinTouched "
+label.Text = "  \xe2\x86\x92 WinTouched r"
+label.Text = "  \xe2\x86\x92 WinTouched re"
+label.Text = "  \xe2\x86\x92 WinTouched rem"
+label.Text = "  \xe2\x86\x92 WinTouched remo"
+label.Text = "  \xe2\x86\x92 WinTouched remot"
+label.Text = "  \xe2\x86\x92 WinTouched remote"
+label.Text = "  \xe2\x86\x92 WinTouched remote:"
+label.Text = "  \xe2\x86\x92 WinTouched remote: "
+label.Text = "  \xe2\x86\x92 WinTouched remote: <"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <f"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <fo"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <fon"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font "
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font c"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font co"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font col"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font colo"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color="
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='r"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rg"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb("
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,13"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>F"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FO"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOU"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUN"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND "
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND ("
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (R"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (Re"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (Rem"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (Remo"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (Remot"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (Remote"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteF"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFu"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFun"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunc"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunct"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFuncti"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunctio"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)<"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</f"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</fo"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</fon"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</font"
+label.Text = "  \xe2\x86\x92 WinTouched remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</font>"
+local _ = fenv["7tw5SVb0SEfP"]
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 32
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = " "
+label.Text = "  "
+label.Text = "  \xe2"
+label.Text = "  \xe2\x86"
+label.Text = "  \xe2\x86\x92"
+label.Text = "  \xe2\x86\x92 "
+label.Text = "  \xe2\x86\x92 R"
+label.Text = "  \xe2\x86\x92 Re"
+label.Text = "  \xe2\x86\x92 Reb"
+label.Text = "  \xe2\x86\x92 Rebi"
+label.Text = "  \xe2\x86\x92 Rebir"
+label.Text = "  \xe2\x86\x92 Rebirt"
+label.Text = "  \xe2\x86\x92 Rebirth"
+label.Text = "  \xe2\x86\x92 Rebirth "
+label.Text = "  \xe2\x86\x92 Rebirth r"
+label.Text = "  \xe2\x86\x92 Rebirth re"
+label.Text = "  \xe2\x86\x92 Rebirth rem"
+label.Text = "  \xe2\x86\x92 Rebirth remo"
+label.Text = "  \xe2\x86\x92 Rebirth remot"
+label.Text = "  \xe2\x86\x92 Rebirth remote"
+label.Text = "  \xe2\x86\x92 Rebirth remote:"
+label.Text = "  \xe2\x86\x92 Rebirth remote: "
+label.Text = "  \xe2\x86\x92 Rebirth remote: <"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <f"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <fo"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <fon"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font "
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font c"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font co"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font col"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font colo"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color="
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='r"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rg"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb("
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(10"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,2"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,22"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,SC_REBIRTH_DELAY"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,13"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>F"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FO"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOU"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUN"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND "
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND ("
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (R"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (Re"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (Rem"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (Remo"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (Remot"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (Remote"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteF"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFu"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFun"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunc"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunct"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFuncti"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunctio"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)<"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</f"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</fo"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</fon"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</font"
+label.Text = "  \xe2\x86\x92 Rebirth remote: <font color='rgb(100,220,130)'>FOUND (RemoteFunction)</font>"
+local _v = task.wait(0.3)
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 33
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "<font color='rgb(120,160,255)'>Compiling</font> exploit modules..."
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 34
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 13)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(100, 220, 255)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 35
+label.RichText = true
+label.Parent = scrollingframe
+label.Text = "  [<font color='rgb(100,220,130)'></font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 0%"
+local _v = task.wait(0.025)
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 2%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 5%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 7%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 10%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 12%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 15%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 17%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 20%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 22%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 25%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 27%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 30%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 32%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 35%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 37%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 40%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 42%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 45%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 47%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 50%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 52%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 55%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 57%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 60%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 62%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 65%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 67%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 70%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 72%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 75%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 77%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 80%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 82%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 85%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 87%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 90%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91\xe2\x96\x91</font>] 92%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91\xe2\x96\x91</font>] 95%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'>\xe2\x96\x91</font>] 97%"
+label.Text = "  [<font color='rgb(100,220,130)'>\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88</font><font color='rgb(60,60,70)'></font>] 100%"
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 36
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 130)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+local _ = fenv.ofyKUpEFNgrMi
+label.Text = "   \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97   \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97   \xe2\x96\x88\xe2\x96\x88\xe2\x95\x97\n  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\n  \xe2\x95\x9a\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\n   \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\xe2\x95\x9a\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x9d\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\xe2\x95\x9a\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\n  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x95\x9a\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\n  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d     \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d\n\n                       C  O  D  E    v SC_REBIRTH_DELAY . 0\n"
+label.TextSize = 12
+label.TextColor3 = Color3.fromRGB(100, 220, 255)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 37
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "<font color='rgb(100,220,130)'>[SUCCESS]</font> ShamanCode fully loaded and operational."
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 38
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "<font color='rgb(140,140,150)'>Uptime: 3.421s | Modules: 16 | Hooks: 4 | Remotes: 2</font>"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(140, 140, 150)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 39
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = ""
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(200, 200, 200)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 40
+label.RichText = true
+label.Parent = scrollingframe
+label.Size = UDim2.new(SC_REBIRTH_DELAY, 0, 0, 15)
+label.BackgroundTransparency = SC_REBIRTH_DELAY
+label.Text = "shaman@exploit:~$ <font color='rgb(100,220,130)'>_</font>"
+label.TextSize = 13
+label.TextColor3 = Color3.fromRGB(220, 220, 220)
+label.Font = Enum.Font.Code
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.LayoutOrder = 41
+label.RichText = true
+label.Parent = scrollingframe
+local _v = task.spawn(function(...)
+    label.Text = "shaman@exploit:~$ "
+    task.wait(0.4)
+    label.Text = "shaman@exploit:~$ <font color='rgb(100,220,130)'>_</font>"
+    task.wait(0.4)
+    label.Text = "shaman@exploit:~$ "
+    task.wait(0.4)
+    label.Text = "shaman@exploit:~$ <font color='rgb(100,220,130)'>_</font>"
+    label.Text = "shaman@exploit:~$ "
+    label.Text = "shaman@exploit:~$ <font color='rgb(100,220,130)'>_</font>"
+end)
+local _v = task.wait(SC_REBIRTH_DELAY.2)
+local _v8 = TweenService:Create(frame, TweenInfo.new(0.6, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {BackgroundTransparency = SC_REBIRTH_DELAY})
+local _v9 = _v8:Play()
+local _v10 = TweenService:Create(frame, TweenInfo.new(0.6), {BackgroundTransparency = SC_REBIRTH_DELAY})
+local _v11 = _v10:Play()
+label.TextTransparency = 0
+local _v12 = TweenService:Create(label, TweenInfo.new(0.6), {TextTransparency = SC_REBIRTH_DELAY})
+local _v13 = _v12:Play()
+local children = scrollingframe:GetChildren()
+local children = frame:GetChildren()
+local _v = task.wait(0.8)
+local _v14 = gui:Destroy()
+local _ = fenv.T6o4R7T8NuvlTp
+local _v15 = game:HttpGet("https://sirius.menu/rayfield")
+local _v16 = loadstring(_v15)()
+local _v17 = _v16:CreateWindow({
+    ConfigurationSaving = {Enabled = false},
+    DisableBuildWarnings = true,
+    DisableRayfieldPrompts = true,
+    Icon = "terminal",
+    KeySystem = false,
+    LoadingSubtitle = "Loading...",
+    LoadingTitle = "ShamanCode",
+    Name = "ShamanCode",
+    Theme = "Default"
+})
+local _v18 = _v17:CreateTab("Win Farm", "trophy")
+local _v19 = _v18:CreateSection("World 2 \xe2\x80\x94 10K Win Pad")
+local _v20 = _v18:CreateToggle({
+    Callback = function()
+    local _ = fenv.MkExlw24cgTJU6
+    task.spawn(function(...) end)
+    local _v44 = _v16:Notify({Content = "10K Win farm started", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.CK1ldBAGNsLk1z
+end,
+    CurrentValue = false,
+    Name = "Auto Farm 10K Win Pad"
+})
+local _v21 = _v18:CreateSlider({
+    Callback = function()
+    local _ = fenv.LQB8lDpMn0Sz
+end,
+    CurrentValue = 0.3,
+    Increment = 0.05,
+    Name = "Farm Speed",
+    Range = {0.05, 2},
+    Suffix = "s"
+})
+local _v22 = _v18:CreateDivider()
+local _v23 = _v18:CreateSection("All Win Pads")
+local _v24 = _v18:CreateToggle({
+    Callback = function()
+    local _ = fenv.CbVtuMcyiwKm8
+    task.spawn(function(...) end)
+    local _v45 = _v16:Notify({Content = "All pads farm started", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv["7u8S5pzsqF61K"]
+end,
+    CurrentValue = false,
+    Name = "Farm All Pads (W1 + W2 + Double)"
+})
+local _v25 = _v18:CreateDivider()
+local _v26 = _v18:CreateButton({Callback = function()
+    local children = workspace.Worlds.World2.DefaultWinPads:GetChildren()
+    local _ = fenv.o2iAaj176P5Mq
+    local _ = fenv["3slxSadQV0jj2"]
+    local _v46 = children[0]:FindFirstChild("HitBox")
+    local _ = fenv.a2YbkkbOOgbeU
+    local _v47 = Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    _v47.CFrame = (_v46.CFrame + Vector3.new(0, 5, 0))
+    local _v48 = _v16:Notify({Content = "Teleported", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.BVE3IXhT1fyC
+end, Name = "TP to 10K Pad (Once)"})
+local _v27 = _v18:CreateButton({Callback = function()
+    local children = workspace.Worlds.World2.DefaultWinPads:GetChildren()
+    local _v49 = children[0]:FindFirstChild("HitBox")
+    local _v50 = _v3:InvokeServer(_v3, _v49)
+    local _ = fenv.guyc1R1ARFv7U
+    local _v51 = _v16:Notify({Content = "Win fired", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.CnI0Rlv4hZ8i9K
+end, Name = "Fire Win Once"})
+local _v28 = _v18:CreateButton({Callback = function()
+    local _v52 = Players.LocalPlayer:FindFirstChild("leaderstats")
+    local _v53 = _v52:FindFirstChild("Wins")
+    local _v54 = _v52:FindFirstChild("Rebirths")
+    local _v55 = _v52:FindFirstChild("Level")
+    local _v56 = _v52:FindFirstChild("Pickaxes")
+    local _ = fenv.dt1G0UT8lEqA
+    local _ = fenv.GSEqX0PZg2MdU
+end, Name = "Show Stats"})
+local _ = fenv.pTE72g5hAZZiF
+local _v29 = _v17:CreateTab("Rebirth", "refresh-cw")
+local _v30 = _v29:CreateSection("Auto Rebirth")
+local _v31 = _v29:CreateToggle({
+    Callback = function()
+    local _ = fenv.LbOgsWL6llmTr
+    task.spawn(function(...) end)
+    local _v57 = _v16:Notify({Content = "Auto rebirth started", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.mdhppvo2qDBZst
+end,
+    CurrentValue = false,
+    Name = "Auto Rebirth Loop"
+})
+local _v32 = _v29:CreateSlider({
+    Callback = function()
+    local _ = fenv.RC8qghQbzhtv
+end,
+    CurrentValue = SC_REBIRTH_DELAY,
+    Increment = 0.5,
+    Name = "Rebirth Delay",
+    Range = {0.5, 10},
+    Suffix = "s"
+})
+local _v33 = _v29:CreateButton({Callback = function()
+    local _v58 = _v4:InvokeServer(_v4)
+    local _ = fenv["4KtCKJOQ3DXuMg"]
+    local _v59 = _v16:Notify({Content = "Rebirth sent", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.gurHTv5OZEFUf8
+end, Name = "Rebirth Once"})
+local _v34 = _v17:CreateTab("Combo", "zap")
+local _v35 = _v34:CreateSection("Ultimate Farm")
+local _v36 = _v34:CreateButton({
+    Callback = function()
+    local _ = fenv.G8TjiiTz6jhVI
+    task.wait(0.3)
+    local _ = fenv.yXxs3c4kzC8kGl
+    local _v60 = _v16:Notify({
+    Content = "Combo active \xe2\x80\x94 win + rebirth",
+    Duration = 3,
+    Title = "ShamanCode"
+})
+    local _ = fenv.I3cgQVurIf3Ct
+end,
+    Name = "START: Win Farm + Auto Rebirth"
+})
+local _v37 = _v34:CreateButton({Callback = function()
+    local _ = fenv.i4LsM9hgnDqh
+    local _ = fenv.m4iwws617SWFmo
+    local _ = fenv["4cneEugbz7CPiS"]
+    local _v61 = Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    _v61.WalkSpeed = 16
+    local _ = fenv.QOW7nQXucdmnn
+    local _ = fenv.KFkOniibTDMz
+    local _ = fenv.E6HM8C9elAErO0
+    local _v62 = _v16:Notify({Content = "Everything stopped", Duration = 2, Title = "ShamanCode"})
+    local _ = fenv.ZHHuPgMe2vhM
+end, Name = "STOP ALL"})
+local _v38 = _v17:CreateTab("Movement", "footprints")
+local _v39 = _v38:CreateSection("Speed & Fly")
+local _v40 = _v38:CreateToggle({
+    Callback = function()
+    local onHeartbeat = RunService.Heartbeat:Connect(function(deltaTime) end)
+    local _ = fenv.TGlZg2C1O0vY
+    local _ = fenv.SHDLLa6S6qk6sq
+end,
+    CurrentValue = false,
+    Name = "Speed Hack"
+})
+local _v41 = _v38:CreateSlider({
+    Callback = function()
+    local _ = fenv.at7f7zRVo1jU
+end,
+    CurrentValue = 32,
+    Increment = SC_REBIRTH_DELAY,
+    Name = "Walk Speed",
+    Range = {16, 200},
+    Suffix = " studs/s"
+})
+local _v42 = _v38:CreateToggle({
+    Callback = function()
+    task.spawn(function(...) end)
+    local _ = fenv["9UlAIf1LZyLv2J"]
+    local _ = fenv.R4VyMVvC9bvNTI
+end,
+    CurrentValue = false,
+    Name = "Fly"
+})
+local _v43 = _v38:CreateSlider({
+    Callback = function()
+    local _ = fenv["1XgD4y4ma0I6Zb"]
+end,
+    CurrentValue = 60,
+    Increment = 5,
+    Name = "Fly Speed",
+    Range = {10, 300},
+    Suffix = " studs/s"
+})
